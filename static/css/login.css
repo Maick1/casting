@@ -1,0 +1,86 @@
+/* Estilos adicionales para la página principal */
+
+/* Estilos para los botones */
+.btn {
+    font-size: 18px;
+    padding: 10px;
+    margin-bottom: 10px;
+    display: block;
+    width: 200px;
+    margin: 0 auto;
+    transition: all 0.3s ease;
+}
+
+.btn:hover {
+    background-color: #f72d7a;
+    color: #fff;
+}
+
+/* Estilos para el footer */
+footer {
+    font-size: 14px;
+}
+
+/* Estilos de la sección del carrusel */
+
+/* Estilos para las imágenes del carrusel */
+.carousel-item img {
+    height: 300px; /* Establece una sola dimensión para las imágenes */
+    width: 100%;
+    object-fit: cover; /* Ajusta el tamaño de la imagen manteniendo la proporción y recortando según sea necesario */
+}
+
+/* Estilos para los indicadores del carrusel */
+.carousel-indicators {
+    bottom: 10px; /* Posiciona los indicadores en la parte inferior del carrusel */
+}
+
+/* Estilos para los controles de navegación del carrusel */
+.carousel-control-prev,
+.carousel-control-next {
+    width: 5%; /* Establece el ancho de los controles de navegación */
+}
+
+.carousel-control-prev-icon,
+.carousel-control-next-icon {
+    background-color: #f72d7a; /* Color de fondo de los íconos de navegación */
+}
+
+.carousel-control-prev-icon:before,
+.carousel-control-next-icon:before {
+    color: #fff; /* Color de los íconos de navegación */
+    font-size: 20px; /* Tamaño de fuente de los íconos de navegación */
+}
+
+.carousel-control-prev {
+    margin-left: -30px; /* Ajusta el margen izquierdo del control de navegación previo */
+}
+
+.carousel-control-next {
+    margin-right: -30px; /* Ajusta el margen derecho del control de navegación siguiente */
+}
+
+/* Estilos para pantallas más pequeñas (max-width: 768px) */
+@media (max-width: 768px) {
+    .carousel-item img {
+        height: 200px; /* Redefine la altura de las imágenes para pantallas más pequeñas */
+    }
+
+    .carousel-control-prev,
+    .carousel-control-next {
+        width: 10%; /* Redefine el ancho de los controles de navegación para pantallas más pequeñas */
+    }
+
+    .carousel-control-prev-icon:before,
+    .carousel-control-next-icon:before {
+        font-size: 16px; /* Redefine el tamaño de fuente de los íconos de navegación para pantallas más pequeñas */
+    }
+
+    .carousel-control-prev {
+        margin-left: -20px; /* Ajusta el margen izquierdo del control de navegación previo para pantallas más pequeñas */
+    }
+
+    .carousel-control-next {
+        margin-right: -20px; /* Ajusta el margen derecho del control de navegación siguiente para pantallas más pequeñas */
+    }
+}
